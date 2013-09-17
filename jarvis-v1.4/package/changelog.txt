@@ -1,0 +1,60 @@
+*** Jarvis Changelog ***
+
+11 July 2013 - Version 1.3.2
+	* Fixed Parallax for iPads.
+	* Fixed AJAX Portfolio Loading issues.
+	* Added Xing, Instagram social icons.
+            
+
+11 July 2013 - Version 1.3.2
+	* Fixed Parallax for iPad Landscape.
+	* Compressed Js Files.
+	* Solved Twitter Issue.
+
+4 July 2013 - Version 1.3.1
+	+ Added the missing Twitter folder
+
+3 July 2013 - Version 1.3
+	* [NEW] Subscription Home Variation
+	* [NEW] Background Video Support Home Variation
+	* [NEW] Static Text Home Variation
+	* [NEW] Now with Total 15 Home Variations
+	* [NEW] Menu at top
+	* [NEW] Menu at bottom
+	* [NEW] Colored Menu Variation
+	* [NEW] Team Variations (1-4 Column Support)
+	* Fixed Parallax completely
+	* Fixed Font Sizes for parallax sections on lower widths
+	* Navigation Highlight while scrolling fix
+
+18 June 2013 - Version 1.2.1
+
+	* Twitter Feed updated with Twitter API.
+	* Back to top feature added.
+
+
+10 June 2013 - Version 1.2
+
+	* Scroll Fix for Safari
+	* Twitter Fix for Safari
+	* Parallax fixes for portable devices
+	* style.css modified
+	* flexslider.css modified
+	* smoothscroll.js modified
+	* scripts.js modified
+	* Twitter and testimonial sections modified in HTML files.
+
+
+25 May 2013 - Version 1.1
+
+	* Fixed portfolio white spacing bug. Works fine with all screen sizes now.
+	* Google webfonts declaration has been shifted now to style.css
+	* Clicking on home logo now takes the page to about section.
+
+
+23 May 2013 - Version 1.0
+
+	* Initial Release
+
+
+
