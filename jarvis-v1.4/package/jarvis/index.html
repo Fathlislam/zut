@@ -1,3 +1,5 @@
+                                                                                                                  <!--                     INDEX THEME 13 VIDEO                               -->
+
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -26,13 +28,14 @@
 	<link rel="stylesheet" href="css/social.css" type="text/css">             
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css">	
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/><!-- PrettyPhoto -->	
-	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->    
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>    
+	<link rel="stylesheet" href="css/YTPlayer.css" type="text/css"/>
 	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
 	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
          
     
  	<link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
-    <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>      
+    <link id="primary_color_scheme" href="css/colors/blue.css" rel="stylesheet" type="text/css"/>      
        
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,24 +55,28 @@
     
     
 	<!-- START HOME SECTION -->    
-	<div id="home" class="home-parallax">
+	<div id="home" class="home-fullscreenslider">
       <div class="home-text-wrapper">
       
-          <div class="home-logo-text">
-            <a href="#about">Welcome to Jarvis</a>
+          <div class="home-logo-text light">
+            <a href="#about">Affilizr</a>
           </div>
+         
+		  <a class="player" data-property="{videoURL: 'http://youtu.be/O_g9HgKAN4s' ,
+                                              <!-- containment:'.background-video', -->
+                                              autoPlay:true, 
+                                              mute:false, 
+                                              startAt:0,
+                                              opacity:1,
+                                              ratio:'16/9', 
+                                              quality:'hd1080',
+                                              vol:36,
+                                              addRaster:false}">
+			
+		<!-- <a class="player" data-property="{videoURL: 'http://www.youtube.com/O_g9HgKAN4s' , containment:'.background-video', autoPlay:true, mute:false, startAt:0, opacity:1, ratio:'16/9', addRaster:false}"> </a>  -->
+	</div> 
+</div>			
                 
-           <div id="home-slider" class="flexslider">			
-                <ul class="slides styled-list">
-                
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">Creative</span> Nerds</p></li>
-                
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">crazy</span> Coders</p></li>
-                
-                <li class="home-slide"><p class="home-slide-content">We <span class="highlight">love</span> Pizzas</p></li>
-                
-                </ul>
-           </div><!-- END FLEXSLIDER -->
         </div><!-- END HOME TEXT WRAPPER -->
      </div><!-- END HOME SECTION -->
 	
@@ -869,7 +876,7 @@
       </ul>
     </div><!-- END PORTFOLIO FILTERING -->    
    </div><!-- END CONTAINER --> 
-   
+			
          
    <!-- START PORTFOLIO WRAP -->  
    <div id="portfolio-wrap">
@@ -1171,7 +1178,7 @@
 	<!-- END PORTFOLIO SECTION -->
     
     
-    
+																				
 
 	<!-- START PARALLAX SECTION -->
 	<div id="parallax4" class="parallax">
@@ -1279,7 +1286,9 @@
     <!-- END CONTACT SECTION -->		
 	
 	
-   </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
+   </div><!-- END PAGE WRAP -->
+   <section class="background-video"></section> 
+   <div id="back-to-top"><a href="#">Back to Top</a></div>
    
 
            
@@ -1288,7 +1297,8 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
     <!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->         
     <script type="text/javascript" src="js/jquery.form.js"></script>
-	<script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script> 
+    <script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
     <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
     <script type="text/javascript" src="js/jquery.appear.js"></script>  
@@ -1304,7 +1314,14 @@
     <script type="text/javascript" src="js/isotope.js"></script>    
     <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
     <script type="text/javascript" src="js/shortcodes.js"></script>     
-	<script type="text/javascript" src="js/scripts.js"></script>            
+	<script type="text/javascript" src="js/scripts.js"></script>     
+
+    <script>
+        $(document).ready(function() {
+            $.fn.homeVideo();
+        });	
+    </script>
+           
                    
   	
 </body>
